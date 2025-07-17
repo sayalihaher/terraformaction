@@ -10,7 +10,7 @@ on:
 jobs:
    SetUp:
        name: terraformsetup
-       runs-on: self-hosted
+       runs-on: ubuntu-latest
 
 
        env:
