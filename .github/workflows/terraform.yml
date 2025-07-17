@@ -41,7 +41,7 @@ jobs:
              run: terraform validate
           
            - name: terraform plan
-             run: terraform plan -out=tfplan
+             run: terraform plan -destroy -out=tfplan
 
 
            - name: terraform apply
