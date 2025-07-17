@@ -3,7 +3,7 @@ terraform {
   storage_account_name = "sayalitestsa"
    container_name = "sayalicont"
    resource_group_name = "sayalirg"
-   key = "githubactions/terraformtf.tfstate"   
+   key = "githubactions/terraform.tfstate"   
  }
 }
 
